@@ -71,7 +71,7 @@ export default function BuilderCard() {
 
   const shareToX = () => {
     const tweetText = encodeURIComponent(
-      "I just made my Hacker House Goa Builder ID! 🌴 #FrameInGoa #HackerHouseGoa https://hhgoa26-build-your-id.netlify.app/"
+      "I just made my Hacker House Goa Builder ID! 🌴 #FrameInGoa #HackerHouseGoa https://hhgoa26-gamer-x-devs-build-your-id.netlify.app/"
     );
     window.open(`https://twitter.com/intent/tweet?text=${tweetText}`, '_blank');
   };
@@ -167,20 +167,7 @@ export default function BuilderCard() {
 
           <div className="glass-panel p-4 mb-4" style={{ borderRadius: '16px' }}>
             <h4 className="mb-4 fw-bold d-flex align-items-center gap-3" style={{ color: '#4a3623' }}>
-              <span style={{ 
-                backgroundColor: '#4a3623', 
-                color: '#f4ebd8', 
-                width: '32px', 
-                height: '32px', 
-                display: 'flex', 
-                alignItems: 'center', 
-                justifyContent: 'center', 
-                borderRadius: '50%', 
-                fontSize: '16px' 
-              }}>
-                1
-              </span> 
-              Upload your Details
+              Upload Your Details
             </h4>
             
             <Form.Group className="mb-4">
@@ -194,7 +181,7 @@ export default function BuilderCard() {
               <Form.Label className="fw-bold" style={{ color: '#4a3623', letterSpacing: '0.5px', fontSize: '14px' }}>
                 Name
               </Form.Label>
-              <Form.Control className="aesthetic-input" type="text" name="name" placeholder="e.g. John Doe" onChange={handleInputChange} />
+              <Form.Control className="aesthetic-input" type="text" name="name" placeholder="e.g. Sujay Dharu" onChange={handleInputChange} />
             </Form.Group>
             
             {/* Role Field with Datalist */}
@@ -226,7 +213,7 @@ export default function BuilderCard() {
                  onClick={downloadBadge} 
                  disabled={isGenerating}
                >
-                {isGenerating ? 'Generating...' : '↓ Download Badge'}
+                {isGenerating ? 'Generating...' : '↓ Download'}
               </Button>
               
               <Button 

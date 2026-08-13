@@ -70,8 +70,10 @@ export default function BuilderCard() {
   };
 
   const shareToX = () => {
-    const text = encodeURIComponent("I'm heading to HH Goa 2026! 🌴💻 #FrameInGoa");
-    window.open(`https://twitter.com/intent/tweet?text=${text}`, '_blank');
+    const tweetText = encodeURIComponent(
+      "I just made my Hacker House Goa Builder ID! 🌴 #FrameInGoa #HackerHouseGoa https://hhgoa26-build-your-id.netlify.app/"
+    );
+    window.open(`https://twitter.com/intent/tweet?text=${tweetText}`, '_blank');
   };
 
   return (
@@ -232,7 +234,7 @@ export default function BuilderCard() {
                 style={{ border: '2px solid #4a3623', borderRadius: '10px', backgroundColor: '#4a3623', color: '#f4ebd8' }}
                 onClick={shareToX}
               >
-                𝕏 Share to X
+                 Share to 𝕏
               </Button>
             </div>
           </div>
